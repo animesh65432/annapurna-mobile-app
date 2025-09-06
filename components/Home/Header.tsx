@@ -4,6 +4,7 @@ import { Image, StyleSheet, View } from "react-native";
 export const Header: React.FC = () => {
     return (
         <View style={styles.container}>
+
             <Image source={require("@/assets/svg/Icon.svg")} style={styles.icon} />
         </View>
     );
@@ -17,9 +18,8 @@ const styles = StyleSheet.create({
         paddingTop: 20,
     },
     icon: {
-        width: 180,
-        height: 38
-
+        width: 190,
+        height: 40
     },
 });
 
